@@ -1,0 +1,14 @@
+source /usr/share/nvm/init-nvm.sh
+export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/ssh-agent.socket"
+export EDITOR=nvim
+eval "$(zoxide init zsh)"
+export PATH=$HOME/.local/bin:$PATH
+
+eval "$(starship init zsh)"
+# Auto attach a tmux session named "main"
+if command -v tmux >/dev/null 2>&1; then
+  # Only if not already inside tmux
+  if [ -z "$TMUX" ]; then
+    tmux attach -t main 2>/dev/null || tmux new -s main
+  fi
+fi
