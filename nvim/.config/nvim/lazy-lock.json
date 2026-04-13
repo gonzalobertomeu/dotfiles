@@ -7,7 +7,7 @@
   "catppuccin": { "branch": "main", "commit": "5af9374957a65be8770696da295dc9016b96f241" },
   "chezmoi.nvim": { "branch": "main", "commit": "8b426285c2b0acb9b0dd46789193fa97f6480b99" },
   "chezmoi.vim": { "branch": "main", "commit": "ca5f2ed602046d5662cb76d845c4b510aae0ce84" },
-  "claudecode.nvim": { "branch": "main", "commit": "93f8e48b1f6cbf2469b378c20b3df4115252d379" },
+  "claude-code.nvim": { "branch": "main", "commit": "55c0cb59828fbc3bec744288286a46f5d5750b83" },
   "conform.nvim": { "branch": "master", "commit": "016bc8174a675e1dbf884b06a165cd0c6c03f9af" },
   "dashboard-nvim": { "branch": "master", "commit": "0775e567b6c0be96d01a61795f7b64c1758262f6" },
   "edgy.nvim": { "branch": "main", "commit": "541705c0e2d67c8925d1c072ac11d30a644ca6a7" },

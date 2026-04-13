@@ -1,6 +1,13 @@
 return {
   "coder/claudecode.nvim",
   dependencies = { "folke/snacks.nvim" },
+  opts = {
+    terminal_cmd = "~/.local/bin/claude",
+    terminal = {
+      split_width_percentage = 0.30,
+      auto_clode = true,
+    },
+  },
   config = true,
   keys = {
     { "<leader>a", nil, desc = "AI/Claude Code" },

@@ -104,13 +104,8 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 
-
-# CUSTOM INIT SCRIPTS
-source "$ZSH_CONF/initrc"
-
 # bun completions
 [ -s "/home/gonza/.bun/_bun" ] && source "/home/gonza/.bun/_bun"
 
-# bun
-export BUN_INSTALL="$HOME/.bun"
-export PATH="$BUN_INSTALL/bin:$PATH"
+# CUSTOM INIT SCRIPTS
+source "$ZSH_CONF/initrc"
